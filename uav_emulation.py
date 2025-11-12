@@ -8,6 +8,11 @@ from collections import defaultdict, deque
 from datetime import datetime
 from pathlib import Path
 
+from packet_validator import PacketValidator
+from statistics_aggregator import StatisticsAggregator
+from report_generator import ReportGenerator
+from network_topology import NetworkTopology
+
 
 logging.basicConfig(
     level=logging.INFO,
@@ -17,11 +22,15 @@ logger = logging.getLogger(__name__)
 
 
 class ChannelEmulator:
-    def __init__(self, seed=42, anomaly_rate=0.1):
+    def __init__(self, seed=42, anomaly_rate=0.1, topology=None):
         random.seed(seed)
         self.anomaly_rate = anomaly_rate
         self.packet_counter = 0
-        self.uav_ids = [f"UAV_{i:03d}" for i in range(1, 11)]
+        self.topology = topology
+        if self.topology is None:
+            self.topology = NetworkTopology(seed=seed)
+            self.topology.initialize_network(num_uavs=10)
+        self.uav_ids = list(self.topology.uavs.keys())
         self.anomaly_types = ['packet_loss', 'malformed_payload', 'spoofed_id']
         
     async def generate_packet(self):
@@ -91,6 +100,8 @@ class ChannelEmulator:
         
         elif anomaly_type == 'spoofed_id':
             fake_id = f"UAV_{random.randint(100, 999):03d}"
+            if self.topology:
+                self.topology.simulate_connection_failure(fake_id, probability=0.2)
             telemetry_data = {
                 'uav_id': fake_id,
                 'timestamp': timestamp,
@@ -118,7 +129,7 @@ class ChannelEmulator:
 
 
 class AnomalyDetector:
-    def __init__(self, latency_threshold=0.1, checksum_threshold=0.05, repeat_id_threshold=0.3):
+    def __init__(self, latency_threshold=0.1, checksum_threshold=0.05, repeat_id_threshold=0.3, topology=None):
         self.latency_threshold = latency_threshold
         self.checksum_threshold = checksum_threshold
         self.repeat_id_threshold = repeat_id_threshold
@@ -130,6 +141,10 @@ class AnomalyDetector:
         self.id_frequencies = defaultdict(int)
         self.alerts = []
         
+        self.validator = PacketValidator()
+        if topology:
+            self.validator.valid_uav_ids = set(topology.uavs.keys())
+        
     async def analyze_packet(self, packet):
         if packet is None:
             self.alerts.append({
@@ -138,6 +153,18 @@ class AnomalyDetector:
                 'severity': 'high'
             })
             return
+        
+        validation_result = self.validator.full_validation(packet)
+        
+        if not validation_result['is_valid']:
+            for error in validation_result['errors']:
+                if error not in ['checksum_mismatch']:
+                    self.alerts.append({
+                        'type': f'validation_error_{error}',
+                        'timestamp': time.time(),
+                        'packet_id': packet.get('packet_id'),
+                        'severity': 'high'
+                    })
         
         self.total_packets += 1
         current_time = time.time()
@@ -156,14 +183,12 @@ class AnomalyDetector:
         
         self.id_frequencies[packet['uav_id']] += 1
         
-        payload_bytes = base64.b64decode(packet['payload'])
-        expected_checksum = sum(payload_bytes) % 10000
-        
-        if packet['checksum'] != expected_checksum:
+        checksum_valid, _, _ = self.validator.validate_checksum(packet)
+        if not checksum_valid:
             self.checksum_mismatches += 1
         
         if packet.get('anomaly') == 'spoofed_id':
-            if packet['uav_id'] not in [f"UAV_{i:03d}" for i in range(1, 11)]:
+            if not self.validator.validate_uav_id(packet):
                 self.alerts.append({
                     'type': 'spoofed_id',
                     'timestamp': current_time,
@@ -222,6 +247,7 @@ class AnomalyDetector:
         return variance
     
     def get_summary(self):
+        validation_stats = self.validator.get_validation_stats()
         return {
             'total_packets': self.total_packets,
             'checksum_mismatches': self.checksum_mismatches,
@@ -231,7 +257,8 @@ class AnomalyDetector:
             'unique_uav_ids': len(self.id_frequencies),
             'total_alerts': len(self.alerts),
             'alerts_by_type': self._count_alerts_by_type(),
-            'alerts_by_severity': self._count_alerts_by_severity()
+            'alerts_by_severity': self._count_alerts_by_severity(),
+            'validation_statistics': validation_stats
         }
     
     def _count_alerts_by_type(self):
@@ -253,8 +280,12 @@ class AnomalyDetector:
 class SimulationRunner:
     def __init__(self, cycles=100, seed=42, anomaly_rate=0.1):
         self.cycles = cycles
-        self.channel = ChannelEmulator(seed=seed, anomaly_rate=anomaly_rate)
-        self.detector = AnomalyDetector()
+        self.topology = NetworkTopology(seed=seed)
+        self.topology.initialize_network(num_uavs=10)
+        self.channel = ChannelEmulator(seed=seed, anomaly_rate=anomaly_rate, topology=self.topology)
+        self.detector = AnomalyDetector(topology=self.topology)
+        self.statistics = StatisticsAggregator()
+        self.report_generator = ReportGenerator(Path('logs'))
         self.log_dir = Path('logs')
         self.log_dir.mkdir(exist_ok=True)
         self.start_time = datetime.now()
@@ -269,6 +300,15 @@ class SimulationRunner:
         
         for cycle in range(1, self.cycles + 1):
             packet = await self.channel.generate_packet()
+            
+            self.statistics.record_packet(packet, cycle)
+            
+            if packet:
+                checksum_valid, _, _ = self.detector.validator.validate_checksum(packet)
+                self.statistics.record_checksum_error(not checksum_valid)
+                if packet.get('uav_id'):
+                    self.topology.update_uav_status(packet['uav_id'], 'active', time.time())
+            
             await self.detector.analyze_packet(packet)
             
             if packet and packet.get('anomaly'):
@@ -279,8 +319,16 @@ class SimulationRunner:
             alerts = self.detector.get_all_alerts()
             new_alerts = [a for a in alerts if a['timestamp'] >= (time.time() - 0.1)]
             for alert in new_alerts:
+                self.statistics.record_alert(alert)
                 alert_entry = f"[Cycle {cycle}] Alert: {alert['type']} - Severity: {alert['severity']} - {json.dumps(alert)}\n"
                 self.log_file.write(alert_entry)
+            
+            cycle_metrics = {
+                'packets_processed': self.detector.total_packets,
+                'alerts_count': len(self.detector.alerts),
+                'checksum_errors': self.detector.checksum_mismatches
+            }
+            self.statistics.record_cycle_metrics(cycle, cycle_metrics)
         
         self.log_file.close()
         
@@ -291,11 +339,23 @@ class SimulationRunner:
         summary['duration_seconds'] = (datetime.now() - self.start_time).total_seconds()
         summary['all_alerts'] = self.detector.get_all_alerts()
         
-        report_filename = self.log_dir / f'analysis_run_{self.start_time.strftime("%Y%m%d")}.json'
-        with open(report_filename, 'w') as f:
-            json.dump(summary, f, indent=2)
+        stats_data = self.statistics.get_comprehensive_stats()
+        validation_data = self.detector.validator.get_validation_stats()
+        network_stats = self.topology.get_network_statistics()
         
-        logger.info(f"Simulation completed. Summary saved to {report_filename}")
+        summary['network_topology'] = network_stats
+        summary['advanced_statistics'] = stats_data
+        
+        report_path = self.report_generator.generate_summary_report(summary, self.start_time)
+        detailed_report_path = self.report_generator.generate_detailed_report(summary, stats_data, validation_data, self.start_time)
+        alert_report_path = self.report_generator.generate_alert_report(self.detector.get_all_alerts(), self.start_time)
+        metrics_report_path = self.report_generator.generate_metrics_report(stats_data, self.start_time)
+        
+        logger.info(f"Simulation completed. Reports saved:")
+        logger.info(f"  Summary: {report_path}")
+        logger.info(f"  Detailed: {detailed_report_path}")
+        logger.info(f"  Alerts: {alert_report_path}")
+        logger.info(f"  Metrics: {metrics_report_path}")
         logger.info(f"Total packets: {summary['total_packets']}, Total alerts: {summary['total_alerts']}")
         
         return summary

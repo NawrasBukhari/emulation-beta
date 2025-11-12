@@ -1,0 +1,377 @@
+[Cycle 1] Anomaly detected: malformed_payload - UAV: UAV_004 - Packet ID: 1
+[Cycle 1] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947209.9305701, "packet_id": 1, "severity": "medium"}
+[Cycle 1] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947209.9305701, "rate": 1.0, "severity": "high"}
+[Cycle 1] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947209.9305701, "uav_id": "UAV_004", "frequency": 1.0, "severity": "medium"}
+[Cycle 2] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947209.9305701, "packet_id": 1, "severity": "medium"}
+[Cycle 2] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947209.9305701, "rate": 1.0, "severity": "high"}
+[Cycle 2] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947209.9305701, "uav_id": "UAV_004", "frequency": 1.0, "severity": "medium"}
+[Cycle 2] Alert: packet_loss - Severity: high - {"type": "packet_loss", "timestamp": 1762947209.9771335, "severity": "high"}
+[Cycle 3] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947209.9305701, "packet_id": 1, "severity": "medium"}
+[Cycle 3] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947209.9305701, "rate": 1.0, "severity": "high"}
+[Cycle 3] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947209.9305701, "uav_id": "UAV_004", "frequency": 1.0, "severity": "medium"}
+[Cycle 3] Alert: packet_loss - Severity: high - {"type": "packet_loss", "timestamp": 1762947209.9771335, "severity": "high"}
+[Cycle 3] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.007758, "rate": 0.5, "severity": "high"}
+[Cycle 3] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.007758, "uav_id": "UAV_004", "frequency": 0.5, "severity": "medium"}
+[Cycle 3] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.007758, "uav_id": "UAV_001", "frequency": 0.5, "severity": "medium"}
+[Cycle 4] Alert: packet_loss - Severity: high - {"type": "packet_loss", "timestamp": 1762947209.9771335, "severity": "high"}
+[Cycle 4] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.007758, "rate": 0.5, "severity": "high"}
+[Cycle 4] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.007758, "uav_id": "UAV_004", "frequency": 0.5, "severity": "medium"}
+[Cycle 4] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.007758, "uav_id": "UAV_001", "frequency": 0.5, "severity": "medium"}
+[Cycle 4] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.03959, "rate": 0.3333333333333333, "severity": "high"}
+[Cycle 4] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.03959, "uav_id": "UAV_004", "frequency": 0.3333333333333333, "severity": "medium"}
+[Cycle 4] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.03959, "uav_id": "UAV_001", "frequency": 0.6666666666666666, "severity": "medium"}
+[Cycle 5] Alert: packet_loss - Severity: high - {"type": "packet_loss", "timestamp": 1762947209.9771335, "severity": "high"}
+[Cycle 5] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.007758, "rate": 0.5, "severity": "high"}
+[Cycle 5] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.007758, "uav_id": "UAV_004", "frequency": 0.5, "severity": "medium"}
+[Cycle 5] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.007758, "uav_id": "UAV_001", "frequency": 0.5, "severity": "medium"}
+[Cycle 5] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.03959, "rate": 0.3333333333333333, "severity": "high"}
+[Cycle 5] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.03959, "uav_id": "UAV_004", "frequency": 0.3333333333333333, "severity": "medium"}
+[Cycle 5] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.03959, "uav_id": "UAV_001", "frequency": 0.6666666666666666, "severity": "medium"}
+[Cycle 5] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.0710032, "rate": 0.25, "severity": "high"}
+[Cycle 5] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.0710032, "uav_id": "UAV_001", "frequency": 0.5, "severity": "medium"}
+[Cycle 6] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.03959, "rate": 0.3333333333333333, "severity": "high"}
+[Cycle 6] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.03959, "uav_id": "UAV_004", "frequency": 0.3333333333333333, "severity": "medium"}
+[Cycle 6] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.03959, "uav_id": "UAV_001", "frequency": 0.6666666666666666, "severity": "medium"}
+[Cycle 6] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.0710032, "rate": 0.25, "severity": "high"}
+[Cycle 6] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.0710032, "uav_id": "UAV_001", "frequency": 0.5, "severity": "medium"}
+[Cycle 6] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.117367, "rate": 0.2, "severity": "high"}
+[Cycle 6] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.117367, "uav_id": "UAV_001", "frequency": 0.4, "severity": "medium"}
+[Cycle 7] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.0710032, "rate": 0.25, "severity": "high"}
+[Cycle 7] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.0710032, "uav_id": "UAV_001", "frequency": 0.5, "severity": "medium"}
+[Cycle 7] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.117367, "rate": 0.2, "severity": "high"}
+[Cycle 7] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.117367, "uav_id": "UAV_001", "frequency": 0.4, "severity": "medium"}
+[Cycle 7] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.1635606, "rate": 0.16666666666666666, "severity": "high"}
+[Cycle 7] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.1635606, "uav_id": "UAV_001", "frequency": 0.3333333333333333, "severity": "medium"}
+[Cycle 8] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.117367, "rate": 0.2, "severity": "high"}
+[Cycle 8] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.117367, "uav_id": "UAV_001", "frequency": 0.4, "severity": "medium"}
+[Cycle 8] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.1635606, "rate": 0.16666666666666666, "severity": "high"}
+[Cycle 8] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.1635606, "uav_id": "UAV_001", "frequency": 0.3333333333333333, "severity": "medium"}
+[Cycle 8] Alert: packet_loss - Severity: high - {"type": "packet_loss", "timestamp": 1762947210.1938648, "severity": "high"}
+[Cycle 9] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.1635606, "rate": 0.16666666666666666, "severity": "high"}
+[Cycle 9] Alert: repeated_id_frequency - Severity: medium - {"type": "repeated_id_frequency", "timestamp": 1762947210.1635606, "uav_id": "UAV_001", "frequency": 0.3333333333333333, "severity": "medium"}
+[Cycle 9] Alert: packet_loss - Severity: high - {"type": "packet_loss", "timestamp": 1762947210.1938648, "severity": "high"}
+[Cycle 9] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.2414234, "rate": 0.14285714285714285, "severity": "high"}
+[Cycle 10] Alert: packet_loss - Severity: high - {"type": "packet_loss", "timestamp": 1762947210.1938648, "severity": "high"}
+[Cycle 10] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.2414234, "rate": 0.14285714285714285, "severity": "high"}
+[Cycle 10] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.272042, "rate": 0.125, "severity": "high"}
+[Cycle 11] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.2414234, "rate": 0.14285714285714285, "severity": "high"}
+[Cycle 11] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.272042, "rate": 0.125, "severity": "high"}
+[Cycle 11] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.3025205, "rate": 0.1111111111111111, "severity": "high"}
+[Cycle 12] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.272042, "rate": 0.125, "severity": "high"}
+[Cycle 12] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.3025205, "rate": 0.1111111111111111, "severity": "high"}
+[Cycle 12] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.3488948, "rate": 0.1, "severity": "high"}
+[Cycle 13] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.3025205, "rate": 0.1111111111111111, "severity": "high"}
+[Cycle 13] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.3488948, "rate": 0.1, "severity": "high"}
+[Cycle 13] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.3802495, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 14] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.3488948, "rate": 0.1, "severity": "high"}
+[Cycle 14] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.3802495, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 14] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.426162, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 15] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.3802495, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 15] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.426162, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 15] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.4570627, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 16] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.426162, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 16] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.4570627, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 16] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.5040388, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 17] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.426162, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 17] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.4570627, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 17] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.5040388, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 17] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.5197036, "rate": 0.06666666666666667, "severity": "high"}
+[Cycle 18] Anomaly detected: spoofed_id - UAV: UAV_612 - Packet ID: 18
+[Cycle 18] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.4570627, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 18] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.5040388, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 18] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.5197036, "rate": 0.06666666666666667, "severity": "high"}
+[Cycle 18] Alert: spoofed_id - Severity: critical - {"type": "spoofed_id", "timestamp": 1762947210.5508788, "uav_id": "UAV_612", "severity": "critical"}
+[Cycle 18] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.5508788, "rate": 0.0625, "severity": "high"}
+[Cycle 19] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.5040388, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 19] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.5197036, "rate": 0.06666666666666667, "severity": "high"}
+[Cycle 19] Alert: spoofed_id - Severity: critical - {"type": "spoofed_id", "timestamp": 1762947210.5508788, "uav_id": "UAV_612", "severity": "critical"}
+[Cycle 19] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.5508788, "rate": 0.0625, "severity": "high"}
+[Cycle 19] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.5972352, "rate": 0.058823529411764705, "severity": "high"}
+[Cycle 20] Anomaly detected: malformed_payload - UAV: UAV_008 - Packet ID: 20
+[Cycle 20] Alert: spoofed_id - Severity: critical - {"type": "spoofed_id", "timestamp": 1762947210.5508788, "uav_id": "UAV_612", "severity": "critical"}
+[Cycle 20] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.5508788, "rate": 0.0625, "severity": "high"}
+[Cycle 20] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.5972352, "rate": 0.058823529411764705, "severity": "high"}
+[Cycle 20] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947210.6299398, "packet_id": 20, "severity": "medium"}
+[Cycle 20] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.6299398, "rate": 0.1111111111111111, "severity": "high"}
+[Cycle 21] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.5972352, "rate": 0.058823529411764705, "severity": "high"}
+[Cycle 21] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947210.6299398, "packet_id": 20, "severity": "medium"}
+[Cycle 21] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.6299398, "rate": 0.1111111111111111, "severity": "high"}
+[Cycle 21] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.6607776, "rate": 0.10526315789473684, "severity": "high"}
+[Cycle 22] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947210.6299398, "packet_id": 20, "severity": "medium"}
+[Cycle 22] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.6299398, "rate": 0.1111111111111111, "severity": "high"}
+[Cycle 22] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.6607776, "rate": 0.10526315789473684, "severity": "high"}
+[Cycle 22] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.7075222, "rate": 0.1, "severity": "high"}
+[Cycle 23] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.6607776, "rate": 0.10526315789473684, "severity": "high"}
+[Cycle 23] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.7075222, "rate": 0.1, "severity": "high"}
+[Cycle 23] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.7546465, "rate": 0.09523809523809523, "severity": "high"}
+[Cycle 24] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.7075222, "rate": 0.1, "severity": "high"}
+[Cycle 24] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.7546465, "rate": 0.09523809523809523, "severity": "high"}
+[Cycle 24] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.8012915, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 25] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.7546465, "rate": 0.09523809523809523, "severity": "high"}
+[Cycle 25] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.8012915, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 25] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.848108, "rate": 0.08695652173913043, "severity": "high"}
+[Cycle 26] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.8012915, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 26] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.848108, "rate": 0.08695652173913043, "severity": "high"}
+[Cycle 26] Alert: packet_loss - Severity: high - {"type": "packet_loss", "timestamp": 1762947210.8945441, "severity": "high"}
+[Cycle 27] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.848108, "rate": 0.08695652173913043, "severity": "high"}
+[Cycle 27] Alert: packet_loss - Severity: high - {"type": "packet_loss", "timestamp": 1762947210.8945441, "severity": "high"}
+[Cycle 27] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.9253876, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 28] Alert: packet_loss - Severity: high - {"type": "packet_loss", "timestamp": 1762947210.8945441, "severity": "high"}
+[Cycle 28] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.9253876, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 28] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.9714851, "rate": 0.08, "severity": "high"}
+[Cycle 29] Anomaly detected: spoofed_id - UAV: UAV_162 - Packet ID: 29
+[Cycle 29] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.9253876, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 29] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.9714851, "rate": 0.08, "severity": "high"}
+[Cycle 29] Alert: spoofed_id - Severity: critical - {"type": "spoofed_id", "timestamp": 1762947211.0189047, "uav_id": "UAV_162", "severity": "critical"}
+[Cycle 29] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.0189047, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 30] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947210.9714851, "rate": 0.08, "severity": "high"}
+[Cycle 30] Alert: spoofed_id - Severity: critical - {"type": "spoofed_id", "timestamp": 1762947211.0189047, "uav_id": "UAV_162", "severity": "critical"}
+[Cycle 30] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.0189047, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 30] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.0508509, "rate": 0.07407407407407407, "severity": "high"}
+[Cycle 31] Alert: spoofed_id - Severity: critical - {"type": "spoofed_id", "timestamp": 1762947211.0189047, "uav_id": "UAV_162", "severity": "critical"}
+[Cycle 31] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.0189047, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 31] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.0508509, "rate": 0.07407407407407407, "severity": "high"}
+[Cycle 31] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.0968475, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 32] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.0968475, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 32] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.1607952, "rate": 0.06896551724137931, "severity": "high"}
+[Cycle 33] Anomaly detected: malformed_payload - UAV: UAV_005 - Packet ID: 33
+[Cycle 33] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.0968475, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 33] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.1607952, "rate": 0.06896551724137931, "severity": "high"}
+[Cycle 33] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947211.192644, "packet_id": 33, "severity": "medium"}
+[Cycle 33] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.192644, "rate": 0.1, "severity": "high"}
+[Cycle 34] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.1607952, "rate": 0.06896551724137931, "severity": "high"}
+[Cycle 34] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947211.192644, "packet_id": 33, "severity": "medium"}
+[Cycle 34] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.192644, "rate": 0.1, "severity": "high"}
+[Cycle 34] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.2238774, "rate": 0.0967741935483871, "severity": "high"}
+[Cycle 35] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947211.192644, "packet_id": 33, "severity": "medium"}
+[Cycle 35] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.192644, "rate": 0.1, "severity": "high"}
+[Cycle 35] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.2238774, "rate": 0.0967741935483871, "severity": "high"}
+[Cycle 35] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.2700825, "rate": 0.09375, "severity": "high"}
+[Cycle 36] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.2238774, "rate": 0.0967741935483871, "severity": "high"}
+[Cycle 36] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.2700825, "rate": 0.09375, "severity": "high"}
+[Cycle 36] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.3164196, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 37] Anomaly detected: spoofed_id - UAV: UAV_678 - Packet ID: 37
+[Cycle 37] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.2700825, "rate": 0.09375, "severity": "high"}
+[Cycle 37] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.3164196, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 37] Alert: spoofed_id - Severity: critical - {"type": "spoofed_id", "timestamp": 1762947211.3316789, "uav_id": "UAV_678", "severity": "critical"}
+[Cycle 37] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.3316789, "rate": 0.08823529411764706, "severity": "high"}
+[Cycle 38] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.2700825, "rate": 0.09375, "severity": "high"}
+[Cycle 38] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.3164196, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 38] Alert: spoofed_id - Severity: critical - {"type": "spoofed_id", "timestamp": 1762947211.3316789, "uav_id": "UAV_678", "severity": "critical"}
+[Cycle 38] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.3316789, "rate": 0.08823529411764706, "severity": "high"}
+[Cycle 38] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.3632293, "rate": 0.08571428571428572, "severity": "high"}
+[Cycle 39] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.3164196, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 39] Alert: spoofed_id - Severity: critical - {"type": "spoofed_id", "timestamp": 1762947211.3316789, "uav_id": "UAV_678", "severity": "critical"}
+[Cycle 39] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.3316789, "rate": 0.08823529411764706, "severity": "high"}
+[Cycle 39] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.3632293, "rate": 0.08571428571428572, "severity": "high"}
+[Cycle 39] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.4102817, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 40] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.4102817, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 40] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.471747, "rate": 0.08108108108108109, "severity": "high"}
+[Cycle 41] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.471747, "rate": 0.08108108108108109, "severity": "high"}
+[Cycle 41] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.5349278, "rate": 0.07894736842105263, "severity": "high"}
+[Cycle 42] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.5349278, "rate": 0.07894736842105263, "severity": "high"}
+[Cycle 42] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.596998, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 43] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.5349278, "rate": 0.07894736842105263, "severity": "high"}
+[Cycle 43] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.596998, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 43] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.6288037, "rate": 0.075, "severity": "high"}
+[Cycle 44] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.596998, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 44] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.6288037, "rate": 0.075, "severity": "high"}
+[Cycle 44] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.6757662, "rate": 0.07317073170731707, "severity": "high"}
+[Cycle 45] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.6288037, "rate": 0.075, "severity": "high"}
+[Cycle 45] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.6757662, "rate": 0.07317073170731707, "severity": "high"}
+[Cycle 45] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.7221375, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 46] Anomaly detected: malformed_payload - UAV: UAV_010 - Packet ID: 46
+[Cycle 46] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.6757662, "rate": 0.07317073170731707, "severity": "high"}
+[Cycle 46] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.7221375, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 46] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947211.7541852, "packet_id": 46, "severity": "medium"}
+[Cycle 46] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.7541852, "rate": 0.09302325581395349, "severity": "high"}
+[Cycle 47] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.7221375, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 47] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947211.7541852, "packet_id": 46, "severity": "medium"}
+[Cycle 47] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.7541852, "rate": 0.09302325581395349, "severity": "high"}
+[Cycle 47] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.8155167, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 48] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.8155167, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 48] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.877568, "rate": 0.08888888888888889, "severity": "high"}
+[Cycle 49] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.8155167, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 49] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.877568, "rate": 0.08888888888888889, "severity": "high"}
+[Cycle 49] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.89263, "rate": 0.08695652173913043, "severity": "high"}
+[Cycle 50] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.877568, "rate": 0.08888888888888889, "severity": "high"}
+[Cycle 50] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.89263, "rate": 0.08695652173913043, "severity": "high"}
+[Cycle 50] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.9242718, "rate": 0.0851063829787234, "severity": "high"}
+[Cycle 51] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.877568, "rate": 0.08888888888888889, "severity": "high"}
+[Cycle 51] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.89263, "rate": 0.08695652173913043, "severity": "high"}
+[Cycle 51] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.9242718, "rate": 0.0851063829787234, "severity": "high"}
+[Cycle 51] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.972057, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 52] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.89263, "rate": 0.08695652173913043, "severity": "high"}
+[Cycle 52] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.9242718, "rate": 0.0851063829787234, "severity": "high"}
+[Cycle 52] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.972057, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 52] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.987076, "rate": 0.08163265306122448, "severity": "high"}
+[Cycle 53] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.972057, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 53] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.987076, "rate": 0.08163265306122448, "severity": "high"}
+[Cycle 53] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.048487, "rate": 0.08, "severity": "high"}
+[Cycle 54] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947211.987076, "rate": 0.08163265306122448, "severity": "high"}
+[Cycle 54] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.048487, "rate": 0.08, "severity": "high"}
+[Cycle 54] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.0788822, "rate": 0.0784313725490196, "severity": "high"}
+[Cycle 55] Anomaly detected: malformed_payload - UAV: UAV_001 - Packet ID: 55
+[Cycle 55] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.048487, "rate": 0.08, "severity": "high"}
+[Cycle 55] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.0788822, "rate": 0.0784313725490196, "severity": "high"}
+[Cycle 55] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947212.1106138, "packet_id": 55, "severity": "medium"}
+[Cycle 55] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.1106138, "rate": 0.09615384615384616, "severity": "high"}
+[Cycle 56] Anomaly detected: spoofed_id - UAV: UAV_738 - Packet ID: 56
+[Cycle 56] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.048487, "rate": 0.08, "severity": "high"}
+[Cycle 56] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.0788822, "rate": 0.0784313725490196, "severity": "high"}
+[Cycle 56] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947212.1106138, "packet_id": 55, "severity": "medium"}
+[Cycle 56] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.1106138, "rate": 0.09615384615384616, "severity": "high"}
+[Cycle 56] Alert: spoofed_id - Severity: critical - {"type": "spoofed_id", "timestamp": 1762947212.141308, "uav_id": "UAV_738", "severity": "critical"}
+[Cycle 56] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.141308, "rate": 0.09433962264150944, "severity": "high"}
+[Cycle 57] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.0788822, "rate": 0.0784313725490196, "severity": "high"}
+[Cycle 57] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947212.1106138, "packet_id": 55, "severity": "medium"}
+[Cycle 57] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.1106138, "rate": 0.09615384615384616, "severity": "high"}
+[Cycle 57] Alert: spoofed_id - Severity: critical - {"type": "spoofed_id", "timestamp": 1762947212.141308, "uav_id": "UAV_738", "severity": "critical"}
+[Cycle 57] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.141308, "rate": 0.09433962264150944, "severity": "high"}
+[Cycle 57] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.1723986, "rate": 0.09259259259259259, "severity": "high"}
+[Cycle 58] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947212.1106138, "packet_id": 55, "severity": "medium"}
+[Cycle 58] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.1106138, "rate": 0.09615384615384616, "severity": "high"}
+[Cycle 58] Alert: spoofed_id - Severity: critical - {"type": "spoofed_id", "timestamp": 1762947212.141308, "uav_id": "UAV_738", "severity": "critical"}
+[Cycle 58] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.141308, "rate": 0.09433962264150944, "severity": "high"}
+[Cycle 58] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.1723986, "rate": 0.09259259259259259, "severity": "high"}
+[Cycle 58] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2040563, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 59] Alert: spoofed_id - Severity: critical - {"type": "spoofed_id", "timestamp": 1762947212.141308, "uav_id": "UAV_738", "severity": "critical"}
+[Cycle 59] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.141308, "rate": 0.09433962264150944, "severity": "high"}
+[Cycle 59] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.1723986, "rate": 0.09259259259259259, "severity": "high"}
+[Cycle 59] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2040563, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 59] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2356343, "rate": 0.08928571428571429, "severity": "high"}
+[Cycle 60] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.1723986, "rate": 0.09259259259259259, "severity": "high"}
+[Cycle 60] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2040563, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 60] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2356343, "rate": 0.08928571428571429, "severity": "high"}
+[Cycle 60] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2668428, "rate": 0.08771929824561403, "severity": "high"}
+[Cycle 61] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2040563, "rate": 0.09090909090909091, "severity": "high"}
+[Cycle 61] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2356343, "rate": 0.08928571428571429, "severity": "high"}
+[Cycle 61] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2668428, "rate": 0.08771929824561403, "severity": "high"}
+[Cycle 61] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2826622, "rate": 0.08620689655172414, "severity": "high"}
+[Cycle 62] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2356343, "rate": 0.08928571428571429, "severity": "high"}
+[Cycle 62] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2668428, "rate": 0.08771929824561403, "severity": "high"}
+[Cycle 62] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2826622, "rate": 0.08620689655172414, "severity": "high"}
+[Cycle 62] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.312928, "rate": 0.0847457627118644, "severity": "high"}
+[Cycle 63] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2668428, "rate": 0.08771929824561403, "severity": "high"}
+[Cycle 63] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2826622, "rate": 0.08620689655172414, "severity": "high"}
+[Cycle 63] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.312928, "rate": 0.0847457627118644, "severity": "high"}
+[Cycle 63] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.3444715, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 64] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2668428, "rate": 0.08771929824561403, "severity": "high"}
+[Cycle 64] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.2826622, "rate": 0.08620689655172414, "severity": "high"}
+[Cycle 64] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.312928, "rate": 0.0847457627118644, "severity": "high"}
+[Cycle 64] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.3444715, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 64] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.3600438, "rate": 0.08196721311475409, "severity": "high"}
+[Cycle 65] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.3444715, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 65] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.3600438, "rate": 0.08196721311475409, "severity": "high"}
+[Cycle 65] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.4220479, "rate": 0.08064516129032258, "severity": "high"}
+[Cycle 66] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.4220479, "rate": 0.08064516129032258, "severity": "high"}
+[Cycle 66] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.4835558, "rate": 0.07936507936507936, "severity": "high"}
+[Cycle 67] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.4220479, "rate": 0.08064516129032258, "severity": "high"}
+[Cycle 67] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.4835558, "rate": 0.07936507936507936, "severity": "high"}
+[Cycle 67] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.5146782, "rate": 0.078125, "severity": "high"}
+[Cycle 68] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.4835558, "rate": 0.07936507936507936, "severity": "high"}
+[Cycle 68] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.5146782, "rate": 0.078125, "severity": "high"}
+[Cycle 68] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.561419, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 69] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.5146782, "rate": 0.078125, "severity": "high"}
+[Cycle 69] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.561419, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 69] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.5927062, "rate": 0.07575757575757576, "severity": "high"}
+[Cycle 70] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.561419, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 70] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.5927062, "rate": 0.07575757575757576, "severity": "high"}
+[Cycle 70] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.6229174, "rate": 0.07462686567164178, "severity": "high"}
+[Cycle 71] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.5927062, "rate": 0.07575757575757576, "severity": "high"}
+[Cycle 71] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.6229174, "rate": 0.07462686567164178, "severity": "high"}
+[Cycle 71] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.669695, "rate": 0.07352941176470588, "severity": "high"}
+[Cycle 72] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.6229174, "rate": 0.07462686567164178, "severity": "high"}
+[Cycle 72] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.669695, "rate": 0.07352941176470588, "severity": "high"}
+[Cycle 72] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.71695, "rate": 0.07246376811594203, "severity": "high"}
+[Cycle 73] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.669695, "rate": 0.07352941176470588, "severity": "high"}
+[Cycle 73] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.71695, "rate": 0.07246376811594203, "severity": "high"}
+[Cycle 73] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.7488422, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 74] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.71695, "rate": 0.07246376811594203, "severity": "high"}
+[Cycle 74] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.7488422, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 74] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.7795224, "rate": 0.07042253521126761, "severity": "high"}
+[Cycle 75] Anomaly detected: malformed_payload - UAV: UAV_003 - Packet ID: 75
+[Cycle 75] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.7488422, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 75] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.7795224, "rate": 0.07042253521126761, "severity": "high"}
+[Cycle 75] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947212.826137, "packet_id": 75, "severity": "medium"}
+[Cycle 75] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.826137, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 76] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.7795224, "rate": 0.07042253521126761, "severity": "high"}
+[Cycle 76] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947212.826137, "packet_id": 75, "severity": "medium"}
+[Cycle 76] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.826137, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 76] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.8572876, "rate": 0.0821917808219178, "severity": "high"}
+[Cycle 77] Alert: malformed_payload - Severity: medium - {"type": "malformed_payload", "timestamp": 1762947212.826137, "packet_id": 75, "severity": "medium"}
+[Cycle 77] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.826137, "rate": 0.08333333333333333, "severity": "high"}
+[Cycle 77] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.8572876, "rate": 0.0821917808219178, "severity": "high"}
+[Cycle 77] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.887853, "rate": 0.08108108108108109, "severity": "high"}
+[Cycle 78] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.8572876, "rate": 0.0821917808219178, "severity": "high"}
+[Cycle 78] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.887853, "rate": 0.08108108108108109, "severity": "high"}
+[Cycle 78] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.9347138, "rate": 0.08, "severity": "high"}
+[Cycle 79] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.887853, "rate": 0.08108108108108109, "severity": "high"}
+[Cycle 79] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.9347138, "rate": 0.08, "severity": "high"}
+[Cycle 79] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.9813752, "rate": 0.07894736842105263, "severity": "high"}
+[Cycle 80] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947212.9813752, "rate": 0.07894736842105263, "severity": "high"}
+[Cycle 80] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.0441728, "rate": 0.07792207792207792, "severity": "high"}
+[Cycle 81] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.0441728, "rate": 0.07792207792207792, "severity": "high"}
+[Cycle 81] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.0911655, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 82] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.0441728, "rate": 0.07792207792207792, "severity": "high"}
+[Cycle 82] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.0911655, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 82] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.123093, "rate": 0.0759493670886076, "severity": "high"}
+[Cycle 83] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.0911655, "rate": 0.07692307692307693, "severity": "high"}
+[Cycle 83] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.123093, "rate": 0.0759493670886076, "severity": "high"}
+[Cycle 83] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.1697605, "rate": 0.075, "severity": "high"}
+[Cycle 84] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.123093, "rate": 0.0759493670886076, "severity": "high"}
+[Cycle 84] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.1697605, "rate": 0.075, "severity": "high"}
+[Cycle 84] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.2000434, "rate": 0.07407407407407407, "severity": "high"}
+[Cycle 85] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.1697605, "rate": 0.075, "severity": "high"}
+[Cycle 85] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.2000434, "rate": 0.07407407407407407, "severity": "high"}
+[Cycle 85] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.2308762, "rate": 0.07317073170731707, "severity": "high"}
+[Cycle 86] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.2000434, "rate": 0.07407407407407407, "severity": "high"}
+[Cycle 86] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.2308762, "rate": 0.07317073170731707, "severity": "high"}
+[Cycle 86] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.2785466, "rate": 0.07228915662650602, "severity": "high"}
+[Cycle 87] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.2308762, "rate": 0.07317073170731707, "severity": "high"}
+[Cycle 87] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.2785466, "rate": 0.07228915662650602, "severity": "high"}
+[Cycle 87] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.3090072, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 88] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.2785466, "rate": 0.07228915662650602, "severity": "high"}
+[Cycle 88] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.3090072, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 88] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.3400497, "rate": 0.07058823529411765, "severity": "high"}
+[Cycle 89] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.2785466, "rate": 0.07228915662650602, "severity": "high"}
+[Cycle 89] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.3090072, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 89] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.3400497, "rate": 0.07058823529411765, "severity": "high"}
+[Cycle 89] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.3558736, "rate": 0.06976744186046512, "severity": "high"}
+[Cycle 90] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.3090072, "rate": 0.07142857142857142, "severity": "high"}
+[Cycle 90] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.3400497, "rate": 0.07058823529411765, "severity": "high"}
+[Cycle 90] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.3558736, "rate": 0.06976744186046512, "severity": "high"}
+[Cycle 90] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.387051, "rate": 0.06896551724137931, "severity": "high"}
+[Cycle 91] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.3400497, "rate": 0.07058823529411765, "severity": "high"}
+[Cycle 91] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.3558736, "rate": 0.06976744186046512, "severity": "high"}
+[Cycle 91] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.387051, "rate": 0.06896551724137931, "severity": "high"}
+[Cycle 91] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.4178348, "rate": 0.06818181818181818, "severity": "high"}
+[Cycle 92] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.3558736, "rate": 0.06976744186046512, "severity": "high"}
+[Cycle 92] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.387051, "rate": 0.06896551724137931, "severity": "high"}
+[Cycle 92] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.4178348, "rate": 0.06818181818181818, "severity": "high"}
+[Cycle 92] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.4497464, "rate": 0.06741573033707865, "severity": "high"}
+[Cycle 93] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.4178348, "rate": 0.06818181818181818, "severity": "high"}
+[Cycle 93] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.4497464, "rate": 0.06741573033707865, "severity": "high"}
+[Cycle 93] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.4967551, "rate": 0.06666666666666667, "severity": "high"}
+[Cycle 94] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.4497464, "rate": 0.06741573033707865, "severity": "high"}
+[Cycle 94] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.4967551, "rate": 0.06666666666666667, "severity": "high"}
+[Cycle 94] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.5437555, "rate": 0.06593406593406594, "severity": "high"}
+[Cycle 95] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.4967551, "rate": 0.06666666666666667, "severity": "high"}
+[Cycle 95] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.5437555, "rate": 0.06593406593406594, "severity": "high"}
+[Cycle 95] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.59069, "rate": 0.06521739130434782, "severity": "high"}
+[Cycle 96] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.5437555, "rate": 0.06593406593406594, "severity": "high"}
+[Cycle 96] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.59069, "rate": 0.06521739130434782, "severity": "high"}
+[Cycle 96] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.6371021, "rate": 0.06451612903225806, "severity": "high"}
+[Cycle 97] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.59069, "rate": 0.06521739130434782, "severity": "high"}
+[Cycle 97] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.6371021, "rate": 0.06451612903225806, "severity": "high"}
+[Cycle 97] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.6519778, "rate": 0.06382978723404255, "severity": "high"}
+[Cycle 98] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.6371021, "rate": 0.06451612903225806, "severity": "high"}
+[Cycle 98] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.6519778, "rate": 0.06382978723404255, "severity": "high"}
+[Cycle 98] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.6990116, "rate": 0.06315789473684211, "severity": "high"}
+[Cycle 99] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.6371021, "rate": 0.06451612903225806, "severity": "high"}
+[Cycle 99] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.6519778, "rate": 0.06382978723404255, "severity": "high"}
+[Cycle 99] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.6990116, "rate": 0.06315789473684211, "severity": "high"}
+[Cycle 99] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.7301998, "rate": 0.0625, "severity": "high"}
+[Cycle 100] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.6990116, "rate": 0.06315789473684211, "severity": "high"}
+[Cycle 100] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.7301998, "rate": 0.0625, "severity": "high"}
+[Cycle 100] Alert: high_checksum_mismatch_rate - Severity: high - {"type": "high_checksum_mismatch_rate", "timestamp": 1762947213.7767975, "rate": 0.061855670103092786, "severity": "high"}
